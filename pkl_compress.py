@@ -7,7 +7,11 @@ def compress_pickle(title, data):
     with bz2.BZ2File(title + '.pbz2', 'w') as f:
         cPickle.dump(data, f)
 
-
+# Load any compressed pickle file
+def decompress_pickle(file):
+    data = bz2.BZ2File(file, 'rb')
+    data = cPickle.load(data)
+    return data
 
 #load model.pkl and compress
 with open('model.pkl', 'rb') as f:
