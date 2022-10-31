@@ -13,7 +13,6 @@ mnist = fetch_openml('mnist_784', version=1)
 X, y = mnist["data"], mnist["target"]
 y = y.astype(np.uint8)
 
-# split training set into 80% train 20% test, shuffle = true
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, shuffle=True)
 
 param_grid = [
