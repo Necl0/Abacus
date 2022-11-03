@@ -3,7 +3,7 @@ import pickle
 from PIL import Image
 import numpy as np
 from werkzeug.datastructures import FileStorage
-from pkl_compress import decompress_pickle
+from pkl_decompress import decompress_pickle
 
 app = Flask(__name__)
 
