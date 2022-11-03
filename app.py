@@ -3,6 +3,7 @@ import pickle
 from PIL import Image
 import numpy as np
 from werkzeug.datastructures import FileStorage
+from pkl_compress import decompress_pickle
 
 app = Flask(__name__)
 
@@ -16,8 +17,9 @@ def hello_world():
 def predict_digit(img) -> list[int]:
     """prediction function"""
     # load model
-    with open('model.pkl', 'rb') as f:
-        model = pickle.load(f)
+
+    model = decompress_pickle('model.pbz2')
+    
     # predict digit
     prediction = model.predict(img)
     return prediction
@@ -42,4 +44,4 @@ def predict() -> str:
 
 
 if __name__ == '__main__':
-    app.run(port=5000)
+    app.run(port=5000, debug=False)
