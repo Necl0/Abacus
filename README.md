@@ -65,14 +65,7 @@ with 97.55% precision, tuning the hyperparameters with Grid Search and preventin
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,7 +80,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Necl0/Abacus.git
    ```
 
 
@@ -152,6 +145,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 
 Twitter - [@Neclo0](https://https://twitter.com/Neclo0)
+
+Discord - Neclo#6412
+
 
 Project Link: [https://github.com/Necl0/Abacus](https://github.com/Necl0/Abacus)
 
