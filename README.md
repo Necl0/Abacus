@@ -160,7 +160,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Neclo0](https://https://twitter.com/Neclo0)
+Twitter - [@Neclo0](https://https://twitter.com/Neclo0)
 
 Project Link: [https://github.com/Necl0/Abacus](https://github.com/Necl0/Abacus)
 
