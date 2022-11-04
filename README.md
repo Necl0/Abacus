@@ -7,7 +7,7 @@
 <div align="center">
  
 
-  <h3 align="center">🔢Abacus</h3>
+  <h3 align="center">🧮Abacus🧮</h3>
 
   <p align="center">
     MNIST classification webapp!
