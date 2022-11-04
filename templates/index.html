@@ -6,14 +6,46 @@
     <title>Abacus</title>
 </head>
 
+<style>
+	.link-underline {
+		border-bottom-width: 0;
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+		background-size: 0 3px;
+		background-position: 0 100%;
+		background-repeat: no-repeat;
+		transition: background-size .5s ease-in-out;
+	}
+
+	.link-underline-black {
+		background-image: linear-gradient(transparent, transparent), linear-gradient(#FFFFFF, #FFFFFF)
+	}
+
+	.link-underline:hover {
+		background-size: 100% 3px;
+		background-position: 0 100%
+	}
+
+
+</style>
+
 <body class="bg-[#131417]">
-    <h1 class="text-6xl font-bold text-center text-white mt-10 mb-20">🧮Abacus🧮</h1>
+    <h1 class="text-6xl font-bold text-center text-white mt-10 mb-20">
+        🧮
+        <a href="#" class="font-display max-w-sm leading-tight">
+			<span class="link link-underline link-underline-black text-white">Abacus</span>
+		</a>
+        🧮
+    </h1>
+
     <div class="p-1.5 mx-auto my-10 max-w-sm rounded-xl bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500">
         <div class="bg-[#40444b] p-5 rounded-lg">
-             <form action="/" method="post" enctype="multipart/form-data">
-                <input class="text-xl text-[#F4F4F4]" type="file" name="imagefile">
-                <input class="text-[#F4F4F4] font-bold hover:underline" type="submit" value="Upload">
-             </form>
+            <form action="/" method="post" enctype="multipart/form-data">
+                <div>
+                    <input class="text-xl text-[#F4F4F4]" type="file" id="file" name="imagefile" multiple/>
+                    <input class="text-[#F4F4F4] font-bold hover:underline" type="submit" value="Upload">
+                </div>
+            </form>
+
         </div>
     </div>
 
