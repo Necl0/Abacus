@@ -77,7 +77,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [x] Reach 97% precision w/ Grid Search
 - [x] Setup Flask backend
 - [x] Create frontend 
-- [ ] Deploy to Vercel
 - [ ] Dockerize application
 
 
