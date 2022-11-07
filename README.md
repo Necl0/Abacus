@@ -64,6 +64,7 @@ with 97.55% precision, tuning the hyperparameters with Grid Search and preventin
 - Cross Validation
 - TailwindCSS
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
@@ -71,7 +72,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
