@@ -68,7 +68,11 @@ with 97.55% precision, tuning the hyperparameters with Grid Search and preventin
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+- Flask
+- TailwindCSS
+- Scikit-learn
+- Python
+- HTML/CSS
 
 
 
