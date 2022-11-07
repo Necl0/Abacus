@@ -60,6 +60,8 @@ with 97.55% precision, tuning the hyperparameters with Grid Search and preventin
 - Basics of Flask 
 - Connecting a frontend to a backend
 - K-Nearest Neighbors Algorithm
+- Storing ML models with pickle
+- Image preprocessing with PIL/Pillow
 - Grid Search
 - Cross Validation
 - TailwindCSS
