@@ -38,7 +38,7 @@
     <li>
       
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#What I learned">What I learned</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -55,6 +55,14 @@ This project is my first end-to-end Machine Learning project, featuring the MNIS
 with 97.55% precision, tuning the hyperparameters with Grid Search and preventing overfitting and underfitting via Grid Search. This model is then saved to a compressed pickle file where I use Flask to route it to a frontend webapp that's styled with TailwindCSS.
 
 
+### What I learned
+
+- Basics of Flask 
+- Connecting a frontend to a backend
+- K-Nearest Neighbors Algorithm
+- Grid Search
+- Cross Validation
+- TailwindCSS
 
 
 ### Built With
