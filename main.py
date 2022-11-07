@@ -6,7 +6,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.model_selection import train_test_split
 import pickle
 import numpy as np
-
+import pandas as pd
 
 # load MNIST dataset
 mnist = fetch_openml('mnist_784', version=1)
@@ -36,6 +36,6 @@ print(f"\n\nPrecision Score: {precision_score(y_test, y_pred, average='micro')}"
 print(f"\n\nBest Hyperparameters: {grid_search.best_params_}")
 
 
-# save model in model.pkl, only done once
-# with open('model.pkl', 'wb') as f:
-#    pickle.dump(knn_clf, f)
+# save model in model.pkl
+with open('model.pkl', 'wb') as f:
+    pickle.dump(knn_clf, f)
