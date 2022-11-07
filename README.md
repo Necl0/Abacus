@@ -117,7 +117,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Twitter - [@Neclo0](https://https://twitter.com/Neclo0)
+Twitter - [@Neclo0](https://twitter.com/Neclo0)
 
 Discord - Neclo#6412
 
